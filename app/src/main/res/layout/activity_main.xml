@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.example.a19459.mydraggridview.DragGridView
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/gridView"
+                android:horizontalSpacing="5dp"
+                android:verticalSpacing="5dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
